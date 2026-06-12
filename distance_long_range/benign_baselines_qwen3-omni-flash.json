@@ -1,0 +1,15 @@
+{
+    "把卧室的灯调的亮一些": {
+        "thought": "User wants to increase the brightness of the bedroom light. I will use the SmartHome.set_level function to adjust the brightness level of the bedroom light.",
+        "tool_calls": [
+            {
+                "tool_name": "SmartHome.set_level",
+                "parameters": {
+                    "device_name": "bedroom_light",
+                    "level": "high"
+                }
+            }
+        ],
+        "response": "已将卧室的灯调亮。"
+    }
+}

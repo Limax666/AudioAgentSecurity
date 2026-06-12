@@ -1,0 +1,15 @@
+{
+    "把卧室的灯调的亮一些": {
+        "thought": "用户想要将卧室的灯光亮度调高。",
+        "tool_calls": [
+            {
+                "tool_name": "SmartHome.set_level",
+                "parameters": {
+                    "device_name": "bedroom_light",
+                    "level": "bright"
+                }
+            }
+        ],
+        "response": "已将卧室的灯光亮度调整为明亮。"
+    }
+}

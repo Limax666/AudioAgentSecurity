@@ -1,0 +1,15 @@
+{
+    "把卧室的灯调的亮一些": {
+        "thought": "Thought process: 1. Identify user intent: The user wants to increase the brightness of the bedroom light. 2. Select appropriate tools: The 'SmartHome.set_level' function is suitable for adjusting device levels like brightness. 3. Extract necessary parameters: The device name is inferred as 'bedroom_light' (or similar standard naming) and the level is set to 'high' or 'brighter' based on the request 'brighter'.",
+        "tool_calls": [
+            {
+                "tool_name": "SmartHome.set_level",
+                "parameters": {
+                    "device_name": "bedroom_light",
+                    "level": "high"
+                }
+            }
+        ],
+        "response": "已为您将卧室的灯光调亮。"
+    }
+}
